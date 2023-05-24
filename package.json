@@ -1,23 +1,19 @@
 {
   "name": "mern-blog",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Mern app",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/diemartinezdev/a-nice-blog-mern.git"
+    "server": "nodemon"
   },
   "keywords": [],
-  "author": "",
+  "author": "diemartinezdev",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/diemartinezdev/a-nice-blog-mern/issues"
-  },
-  "homepage": "https://github.com/diemartinezdev/a-nice-blog-mern#readme",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1",
+    "nodemon": "^2.0.22"
   }
 }
