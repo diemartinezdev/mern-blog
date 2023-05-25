@@ -10,7 +10,8 @@
   "author": "diemartinezdev",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongodb": "^5.5.0"
   },
   "devDependencies": {
     "concurrently": "^8.0.1",
